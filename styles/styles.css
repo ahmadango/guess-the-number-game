@@ -1,0 +1,155 @@
+body {
+    background-color: cornflowerblue;
+    padding: 0;
+    margin: 0;
+}
+
+.game-heading {
+    text-align: center;
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6em;
+}
+
+.second-heading {
+    text-align: center;
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+}
+
+.input-container {
+    margin: auto;
+    width: 30%;
+}
+
+.input-class {
+    background-color: cornsilk;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(47, 69, 108);
+}
+
+.input-class::placeholder {
+    font-size: inherit;
+    font-family: 'Courier New', Courier, monospace;
+    color: cornflowerblue;
+}
+
+.button-container {
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+.button-container2 {
+    width: 10%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* #button2 {
+    display: none;
+    
+} */
+
+#reset {
+    background-color: gray;
+    color: cornsilk;
+}
+
+
+.check-button {
+    background-color: rgb(255, 204, 0);
+    color: cornflowerblue;
+    font-size: 2rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+.result-score {
+    text-align: center;
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+}
+
+.images {
+    top: 120px;
+    right: 40px;
+    position:absolute;
+    display: none;  
+    z-index: -10;
+
+}
+
+#welldonemyfriend { 
+    /* display: block; */
+    width: 400px;
+    /* top: 80%; */
+}
+
+.trials-div {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.option-display {
+    /* display: flex; */
+    background-color: white;
+    position: absolute;
+    /* top: 0; */
+    /* right: -50; */
+    /* width: fit-content;     */
+}
+
+.levels, .level {
+    padding: 0;
+    margin: 0;
+}
+
+.levels-options {
+    display: none;
+}
+
+.level:hover {
+    background-color: brown;
+    color: white;
+    cursor: pointer;    
+}
+#level1, #level2, #level3, #level {
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+#level1 {
+    background-color: lightcoral;
+}
+
+#level1:hover {
+    background-color: rgb(254, 98, 41);
+}
+
+#level2 {
+    background-color: lightblue;
+}
+#level2:hover {
+    background-color: rgb(77, 77, 248);
+}
+
+#level3 {
+    background-color: lightpink;
+}
+
+#level3:hover {
+    background-color: rgb(253, 129, 150);
+}
+

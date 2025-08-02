@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number!</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="shortcut icon" href="/assets/guess-the-game-icon.png" type="image/x-icon">
+
+</head>
+
+<body id="body">
+
+    <h3 class="game-heading">Guess the number game</h3>
+
+    <div class="trials-div">
+        <h4 id="trials" class="second-heading">Number of Tries: <span id="displaytrials">0</span>/<span
+                id="numberofavailabletrialsdisplay"></span> </h4>
+
+
+    </div>
+
+    <div class="option-display" id="optiondisplay">
+        <p class="level" id="level" onclick="changeLevel()">levels ></p>
+        <div class="levels-options" id="levelsoption">
+            <p class="levels" id="level1" onclick="changeToLevel(12)">level 1</p>
+            <p class="levels" id="level2" onclick="changeToLevel(7)">level 2</p>
+            <p class="levels" id="level3" onclick="changeToLevel(3)">level 3</p>
+        </div>
+
+    </div>
+
+    <div class="input-container">
+        <input class="input-class" id="input" type="number" placeholder="guess a number: ">
+    </div>
+    <div class="button-container" id="button1">
+        <button class="check-button" id="check" onclick="start()">check</button>
+    </div>
+
+    <div class="button-container2" id="button2">
+        <button class="check-button" id="reset" onclick="reset()">Reset</button>
+    </div>
+
+    <p class="result-score" id="score"></p><br>
+    <!-- <div class="images-container" id="images-div"> -->
+    <img src="assets/blackguycrying.gif" alt="man crying" class="images" id="blackguycrying">
+
+    <img src="assets/welldonemyfriend.jpg" alt="welldonemyfriend" class="images" id="welldonemyfriend">
+
+    <img src="assets/confusedmonkey.gif" alt="confusedmonkey" class="images" id="confusedmonkey">
+
+    <img src="assets/coffindance.gif" alt="coffindance" class="images" id="coffindance">
+
+    <img src="assets/vanishingemoji.gif" alt="welldonemyfriend" class="images" id="vanishingemoji">
+
+    <img src="assets/wrestleramazed.gif" alt="wrestleramazed" class="images" id="wrestleramazed">
+
+    <!-- </div> -->
+
+    <!-- script here -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
