@@ -86,13 +86,13 @@ function checkNumber() {
     }
     else if (userInputNumber < randomNumber) {
         console.log("go higher brah");
-        scoreOutput.innerHTML = "go higher than " + userInputNumber + " bruv"
+        scoreOutput.innerHTML = "go higher than " + userInputNumber;
 
         numberOfTrials++;
     }
 
     else if (userInputNumber > randomNumber) {
-        console.log("go lower nigga");
+        console.log("go lower");
         scoreOutput.innerHTML = "try something less than " + userInputNumber;
 
         numberOfTrials++;
